@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin: 0 10rem 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand:hover {
+    color: rgb(0, 195, 255);
+}
+
+.navbar-nav {
+    margin-left: 20rem;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.helping-images {
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+#second-section{
+    text-align: center;
+    margin: 3%;
+    padding: 3% 6%;
+}
+
+
+.donate {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: steelblue;
+}
+
+.about-us {
+    padding: 3% 5%;
+
+}
+
+
+.social-links, #third-section {
+    text-align: center;
+    padding: 3%;
+    background-color: #F7F7F7;
+}
+
+.copyright {
+    display: inline-block;
+}
+
+.list {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav-item {
+    display: block;
+    float: right;
+    margin: 0.5rem;
+}
+
+.fab {
+    font-size: 2rem;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: rgb(255, 71, 101);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-github {
+    color: black;
+}
